@@ -11,3 +11,7 @@ O
 +src/main/webapp/WEB-INF/view/first-view.jsp,e\0\e043be0d15df126ed2ea2e5d30d3fb962be54718
 k
 ;src/main/java/com/nikitamoritz/spring/mvc/MyController.java,2\6\26c2ce3eef57182b8fe83b83651a732a018b79e1
+e
+5src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp,3\3\33e280ec163d8a054f55c8fcee67895641f11280
+f
+6src/main/webapp/WEB-INF/view/show-emp-details-view.jsp,6\5\653592ff7b7eb5202d7a3060f04e46c5301c9124
