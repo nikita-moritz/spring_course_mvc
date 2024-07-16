@@ -1,6 +1,4 @@
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
-<%@ taglib prefix="c" uri="http://jakarta.apache.org/jsp/jstl/core" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <body>
@@ -23,11 +21,11 @@ Your car brand: ${employee.carBrand}
 <br>
 
 
-
+Language(s):
 <ul>
     <c:forEach var="lang" items="$(employee.languages)">
 
-        <li> ${lang} </li>
+        <li>${lang}</li>
 
     </c:forEach>
 </ul>

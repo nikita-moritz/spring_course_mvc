@@ -30,11 +30,10 @@
 </form:select>
     <br><br>
     Which car do you want?
-    <%--    Audi<form:radiobutton path="carBrand" value="Audi"/>
-    BMW<form:radiobutton path="carBrand" value="BMW"/>
-    Mercedes<form:radiobutton path="carBrand" value="Mercedes"/>--%>
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
-
+<%--    Audi<form:radiobutton path="carBrand" value="Audi"/>--%>
+<%--    BMW<form:radiobutton path="carBrand" value="BMW"/>--%>
+<%--    Mercedes<form:radiobutton path="carBrand" value="Mercedes"/>--%>
     <br><br>
     Foreign language(s):
     EN <form:checkbox path="languages" value="English"/>
