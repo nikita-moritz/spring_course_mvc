@@ -1,12 +1,14 @@
 package com.nikitamoritz.spring.mvc;
 
+
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.servlet.http.HttpServletRequest;
 
 @Controller
+@RequestMapping("/employee")
 public class MyController {
 
     @RequestMapping("/")
@@ -15,7 +17,14 @@ public class MyController {
     }
 
     @RequestMapping("/askDetails")
-    public String askEmployeeDetails() {
+    public String askEmployeeDetails(Model model) {
+
+        /*Employee emp = new Employee();
+        emp.setName("John");
+        emp.setSurname("Doe");
+        emp.setSalary(1000);*/
+        model.addAttribute("employee", new Employee());
+
         return "ask-emp-details-view";
     }
 
